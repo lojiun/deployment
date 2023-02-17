@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "project.coupdwiglhpf.us-east-1.rds.amazonaws.com",
+    "database": "project",
+    "user": "postgres",
+    "password": "password"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "project.coupdwiglhpf.us-east-1.rds.amazonaws.com",
+    "database": "project_test",
+    "user": "postgres",
+    "password": "password"
+  }
+}
