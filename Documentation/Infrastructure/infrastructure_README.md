@@ -12,8 +12,8 @@ Amazon Elastic Beanstalk is used to host the backend API server for Udagram and 
 -  #### RDS:
  This is a  relational database service that makes it easy create database in the cloud and connect it to our backend app . The Postgres database used by Udagram app  is hosted on  RDS provided by amazon .
     
-- #### S3:
-To organise, optimise, and set up access to your data, Amazon S3 offers administration options.
+-  #### S3:
+To organise, optimise, and set up access to your data  Amazon S3 offers administration options.
   The frontend of Udagram is hosted on an Amazon S3 bucket,
     
 
@@ -38,4 +38,4 @@ The relational database management system Postgres stores the data required for 
   The infrastructure 
  => The backend API server ( hosted on Elastic Beanstalk )
  => Postgres database hosted on AWS RDS. 
- => The frontend web app(Anuglar) is hosted on AWS S3
+ => The frontend web app(Anuglar) is hosted on AWS S3.
