@@ -10,7 +10,7 @@
     "prod": "npx tsc && node server.js",
     "clean": "rm -rf www/ || true",
     "deploy": "chmod +x bin/deploy.sh &&  bin/deploy.sh",
-    "deploy:test": "eb use Baherproject-env && eb deploy",
+    "deploy:test": "eb use udagram-app-lojiun   && eb deploy",
     "build": "npm install . && npm run clean && tsc && cp -rf src/config www/config && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
     "test": "echo Testing was successful"
   },
